@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SteroidBank | Buy Anabolic Steroids Online</title>
+  <meta name="description" content="Shop Aurum, Xeno, and SIXPEX anabolic steroids, HGH, and supplements. Fast delivery, secure shopping.">
+  <meta name="keywords" content="anabolic steroids, HGH, peptides, Aurum, Xeno, SIXPEX, buy steroids online">
+  <link rel="stylesheet" href="swiper.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "SteroidBank",
+    "url": "https://steroidbank.com"
+  }
+  </script>
+</head>
+<body>
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" style="background: url('assets/images/banner1.jpg');">20% Off Aurum Steroids!</div>
+      <div class="swiper-slide" style="background: url('assets/images/banner2.jpg');">Boost Performance with Xeno Peptides!</div>
+      <div class="swiper-slide" style="background: url('assets/images/banner3.jpg');">SIXPEX HGH for Maximum Results</div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+  <div class="search-bar">
+    <input type="text" placeholder="Search products..." id="searchInput">
+    <button onclick="searchProducts()">Search</button>
+    <select id="brandFilter" onchange="filterProducts()">
+      <option value="">All Brands</option>
+      <option value="Aurum">Aurum</option>
+      <option value="Xeno">Xeno</option>
+      <option value="SIXPEX">SIXPEX</option>
+    </select>
+    <select id="categoryFilter" onchange="filterProducts()">
+      <option value="">All Categories</option>
+      <option value="Steroid">Steroid</option>
+      <option value="Peptide">Peptide</option>
+      <option value="HGH">HGH</option>
+      <option value="Supplement">Supplement</option>
+    </select>
+  </div>
+  <div class="product-list" id="productList"></div>
+  <script src="swiper.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
