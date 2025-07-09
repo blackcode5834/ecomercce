@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.swiper-container {
+  width: 100%;
+  height: 300px;
+}
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  line-height: 300px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+.search-bar {
+  text-align: center;
+  padding: 20px;
+}
+.search-bar input, .search-bar select {
+  padding: 10px;
+  font-size: 16px;
+}
+.search-bar button {
+  padding: 10px 20px;
+  background: #1a3c34;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+.product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
+.product img {
+  width: 100%;
+  height: auto;
+}
